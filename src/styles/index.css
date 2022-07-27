@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.information-large {
+    @apply text-black  text-xl font-mono ml-14;
+}
