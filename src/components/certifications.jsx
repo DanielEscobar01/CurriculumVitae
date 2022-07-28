@@ -9,15 +9,17 @@ function Certifications() {
       <h1 className='text-black text-center text-4xl font-bold mt-4 mr-0'>
         Certifications
       </h1>
-      <div className='flex justify-between '>
+      <div className='information-image-right'>
         <div>
           <h1 className='information-large mt-4'>CCNA Routing and Switching</h1>
           <h1 className='information-large'>CISCO</h1>
           <h1 className='information-large'>February 2021</h1>
         </div>
-        <img className='w-28 ' src={Cisco} alt='Logo' />
+        <div className='center-image'>
+          <img className='w-28' src={Cisco} alt='Logo' />
+        </div>
       </div>
-      <div className='flex justify-between'>
+      <div className='information-image-right'>
         <div>
           <h1 className='information-large mt-4'>
             Introduction to Cybersecurity Tools
@@ -25,9 +27,11 @@ function Certifications() {
           <h1 className='information-large'>IBM</h1>
           <h1 className='information-large'>August 2021</h1>
         </div>
-        <img className='w-28 ' src={IBM} alt='Logo' />
+        <div className='center-image'>
+          <img className='w-28 ' src={IBM} alt='Logo' />
+        </div>
       </div>
-      <div className='flex  justify-between '>
+      <div className='information-image-right'>
         <div>
           <h1 className='information-large mt-4'>
             English Certificate C2 - Proficient
@@ -35,9 +39,11 @@ function Certifications() {
           <h1 className='information-large'>EDUCATION FIRST</h1>
           <h1 className='information-large'>August 2021</h1>
         </div>
-        <img className='w-28' src={EF} alt='Logo' />
+        <div className='center-image'>
+          <img className='w-28' src={EF} alt='Logo' />
+        </div>
       </div>
-      <div className='flex  justify-between'>
+      <div className='information-image-right'>
         <div>
           <h1 className='information-large mt-4'>
             Cybersecurity Processes and Operating System
@@ -45,7 +51,9 @@ function Certifications() {
           <h1 className='information-large'>CISCO</h1>
           <h1 className='information-large'>October 2021</h1>
         </div>
-        <img className='w-28' src={IBM} alt='Logo' />
+        <div className='center-image'>
+          <img className='w-32' src={Cisco} alt='Logo' />
+        </div>
       </div>
     </div>
   );

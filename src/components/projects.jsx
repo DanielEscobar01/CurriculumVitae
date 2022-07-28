@@ -7,19 +7,17 @@ function Projects() {
       <h1 className='text-black text-center text-4xl font-bold mt-6'>
         Projects
       </h1>
-      <div className='flex flex-row'>
+      <div className='information-image-right'>
         <div>
-          <h1 className='text-black sm:text-md md:text-lg lg:text-xl text-xl font-mono ml-14 mt-6'>
+          <h1 className='information-large mt-6'>
             Centralized Management System
           </h1>
-          <h1 className='text-black sm:text-md md:text-lg lg:text-xl text-xl font-mono ml-14'>
-            University of Antioquia
-          </h1>
-          <h1 className='text-black sm:text-md md:text-lg lg:text-xl text-xl font-mono ml-14'>
-            Currently
-          </h1>
+          <h1 className='information-large'>University of Antioquia</h1>
+          <h1 className='information-large'>Currently</h1>
         </div>
-        <img className='scale-50 object-center m-auto ' src={UdeA} alt='Logo' />
+        <div className='center-image'>
+          <img className='w-32' src={UdeA} alt='Logo' />
+        </div>
       </div>
     </div>
   );

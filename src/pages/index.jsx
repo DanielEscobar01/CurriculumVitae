@@ -8,22 +8,22 @@ import { Workexperience } from 'components/workexperience';
 
 function IndexPage() {
   return (
-    <main className='flex h-screen'>
-      <aside className='bg-blue-900 hidden lg:flex w-4/12 flex-col'>
+    <div className='flex h-min-screen  '>
+      <aside className='bg-blue-800  border-black flex w-4/12 flex-col'>
         <ProfileSection />
       </aside>
-      <div className='w-full h-screen flex  bg-gray-400'>
-        <div className='flex-1 w-full h-full border-r-4 border-r-black bg-gray-400'>
+      <div className='flex  bg-gray-400'>
+        <div className='flex-1   border-black bg-gray-400'>
           <AcademicSection />
           <Certifications />
         </div>
-        <div className='flex-1 w-full h-full'>
+        <div className='flex-1 w-full '>
           <Workexperience />
           <Languages />
           <Projects />
         </div>
       </div>
-    </main>
+    </div>
   );
 }
 

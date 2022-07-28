@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .information-large {
-    @apply text-black  text-xl font-mono ml-14;
+    @apply text-black  text-lg font-mono ml-4;
+}
+
+.border-black {
+    @apply border-r-4 border-r-black;
+}
+
+.information-style {
+    @apply flex mt-6 justify-center gap-2 ml-4;
+}
+
+.information-image-right {
+    @apply flex justify-between ml-2;
+}
+
+.center-image {
+    @apply flex items-center justify-center;
 }
