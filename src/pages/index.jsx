@@ -9,15 +9,15 @@ import { Workexperience } from 'components/workexperience';
 function IndexPage() {
   return (
     <div className='flex h-min-screen  '>
-      <aside className='bg-blue-800  border-black flex w-4/12 flex-col'>
+      <div className='bg-blue-800  border-black flex sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-4/12 flex-col'>
         <ProfileSection />
-      </aside>
-      <div className='flex  bg-gray-400'>
-        <div className='flex-1   border-black bg-gray-400'>
+      </div>
+      <div className='flex  bg-gray-400 '>
+        <div className='flex-1   border-black bg-gray-400 sm:w-1/2 md:1/2 lg:w-1/2 '>
           <AcademicSection />
           <Certifications />
         </div>
-        <div className='flex-1 w-full '>
+        <div className='flex-1 w-full sm:hidden md:hidden'>
           <Workexperience />
           <Languages />
           <Projects />
