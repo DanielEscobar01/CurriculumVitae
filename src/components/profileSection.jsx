@@ -35,7 +35,7 @@ function ProfileSection() {
         </h1>
       </div>
       <div className='flex justify-center mt-6 gap-2'>
-        <img className='w-1/12 rounded-lg' src={LinkedIn} alt='Logo' />
+        <img className='w-1/12 rounded-lg mb-2' src={LinkedIn} alt='Logo' />
         <h1 className='text-white text-center text-2xl font-mono'>
           Daniel Escobar
         </h1>
