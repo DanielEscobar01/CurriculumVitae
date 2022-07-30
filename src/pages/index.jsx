@@ -8,12 +8,12 @@ import { Workexperience } from 'components/workexperience';
 
 function IndexPage() {
   return (
-    <div className='flex h-min-screen  '>
-      <div className='bg-blue-800  border-black flex sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-4/12 flex-col'>
+    <div className='flex flex-col xl:flex-row h-min-screen p-2 bg-black '>
+      <div className='bg-blue-800  xl:border-black flex  xl:w-4/12 flex-col'>
         <ProfileSection />
       </div>
-      <div className='flex  bg-gray-400 sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-2/3'>
-        <div className='flex-1   border-black bg-gray-400  '>
+      <div className='flex  bg-gray-400  xl:w-2/3'>
+        <div className='flex-1   xl:border-black  bg-gray-400  '>
           <AcademicSection />
           <Certifications />
           <div className='flex-1  xl:hidden '>
@@ -22,7 +22,7 @@ function IndexPage() {
             <Projects />
           </div>
         </div>
-        <div className='flex-1 w-full xs:hidden sm:hidden md:hidden lg:hidden xl:block '>
+        <div className='hidden flex-1 w-full border-l-8 border-l-black xl:block'>
           <Workexperience />
           <Languages />
           <Projects />
