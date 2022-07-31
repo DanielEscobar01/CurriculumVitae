@@ -5,7 +5,7 @@ import LinkedIn from 'components/images/linkedin.png';
 
 function ProfileSection() {
   return (
-    <>
+    <div className='xl:h-screen'>
       <div className='mt-2 mb-2'>
         <img
           className='object-contain rounded-full mx-auto w-2/3 '
@@ -44,7 +44,7 @@ function ProfileSection() {
           Daniel Escobar
         </h1>
       </div>
-    </>
+    </div>
   );
 }
 
