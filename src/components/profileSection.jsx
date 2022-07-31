@@ -6,7 +6,7 @@ import LinkedIn from 'components/images/linkedin.png';
 function ProfileSection() {
   return (
     <>
-      <div className='h-max mt-2 '>
+      <div className='mt-2 '>
         <img
           className='object-contain rounded-full mx-auto w-2/3 '
           src={Picture}
@@ -34,7 +34,7 @@ function ProfileSection() {
           DanielEscobar01
         </h1>
       </div>
-      <div className='flex justify-center mt-3 gap-2'>
+      <div className='flex justify-center mt-6 gap-2'>
         <img
           className='w-1/12 rounded-lg mb-2 ml-2'
           src={LinkedIn}
