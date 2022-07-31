@@ -6,7 +6,7 @@ import LinkedIn from 'components/images/linkedin.png';
 function ProfileSection() {
   return (
     <>
-      <div className='mt-2 '>
+      <div className='mt-2 mb-2'>
         <img
           className='object-contain rounded-full mx-auto w-2/3 '
           src={Picture}
@@ -40,7 +40,7 @@ function ProfileSection() {
           src={LinkedIn}
           alt='Logo'
         />
-        <h1 className='text-white text-center text-xl xl:text-2xl font-mono'>
+        <h1 className='text-white mb-2 text-center text-xl xl:text-2xl font-mono'>
           Daniel Escobar
         </h1>
       </div>

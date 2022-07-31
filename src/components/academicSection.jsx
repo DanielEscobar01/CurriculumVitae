@@ -3,7 +3,7 @@ import UdeA from 'components/images/udea.png';
 
 function AcademicSection() {
   return (
-    <div>
+    <div className='mt-2'>
       <h1 className='titles'>Academic Information</h1>
       <div className='flex flex-row  information-image-right'>
         <div className='information-mobile xl:information-extralarge'>
