@@ -9,7 +9,7 @@ import { Workexperience } from 'components/workexperience';
 function IndexPage() {
   return (
     <div className='flex flex-col xl:flex-row h-min-screen p-2 bg-black '>
-      <div className='bg-blue-800 h-screen xl:border-black flex  xl:w-4/12 flex-col'>
+      <div className='bg-blue-800  xl:border-black flex  xl:w-4/12 flex-col'>
         <ProfileSection />
       </div>
       <div className='flex  bg-gray-400  xl:w-2/3'>
