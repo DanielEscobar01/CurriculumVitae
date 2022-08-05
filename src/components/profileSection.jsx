@@ -30,9 +30,12 @@ function ProfileSection() {
       </div>
       <div className='flex mt-6 justify-center gap-2'>
         <img className='w-1/12 rounded-lg ml-2' src={GitHub} alt='Logo' />
-        <h1 className='text-white text-center text-xl xl:text-2xl font-mono'>
+        <a
+          href='https://www.linkedin.com/in/daniel-escobar-b9a129191/'
+          className='text-white text-center text-xl xl:text-2xl font-mono'
+        >
           DanielEscobar01
-        </h1>
+        </a>
       </div>
       <div className='flex justify-center mt-6 gap-2'>
         <img
@@ -40,9 +43,12 @@ function ProfileSection() {
           src={LinkedIn}
           alt='Logo'
         />
-        <h1 className='text-white mb-2 text-center text-xl xl:text-2xl font-mono'>
+        <a
+          href='https://github.com/DanielEscobar01'
+          className='text-white mb-2 text-center text-xl xl:text-2xl font-mono'
+        >
           Daniel Escobar
-        </h1>
+        </a>
       </div>
     </div>
   );
