@@ -31,7 +31,7 @@ function ProfileSection() {
       <div className='flex mt-6 justify-center gap-2'>
         <img className='w-1/12 rounded-lg ml-2' src={GitHub} alt='Logo' />
         <a
-          href='https://www.linkedin.com/in/daniel-escobar-b9a129191/'
+          href='https://github.com/DanielEscobar01'
           className='text-white text-center text-xl xl:text-2xl font-mono'
         >
           DanielEscobar01
@@ -44,7 +44,7 @@ function ProfileSection() {
           alt='Logo'
         />
         <a
-          href='https://github.com/DanielEscobar01'
+          href='https://www.linkedin.com/in/daniel-escobar-b9a129191/'
           className='text-white mb-2 text-center text-xl xl:text-2xl font-mono'
         >
           Daniel Escobar
